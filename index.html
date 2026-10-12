@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Presente digital para celebrar 3 meses de namoro com Thy."
+    />
+    <title>3 meses com Thy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="floating-hearts" aria-hidden="true"></div>
+
+    <button class="music-toggle" id="musicToggle" type="button" aria-label="Ativar ou pausar música">
+      🎵 música
+    </button>
+
+    <header class="hero">
+      <p class="eyebrow">Para minha vida</p>
+      <h1>Preparei uma coisinha especial pra você, meu amor ❤️</h1>
+
+      <div class="envelope-wrapper">
+        <button
+          class="envelope-button"
+          id="openLetterBtn"
+          type="button"
+          aria-label="Abrir carta de amor"
+        >
+          <div class="envelope" aria-hidden="true">
+            <div class="envelope-top"></div>
+            <div class="envelope-body"></div>
+            <div class="envelope-heart">❤</div>
+          </div>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="letter-section" id="letterSection" aria-live="polite">
+        <div class="section-tag">Nossa carta</div>
+        <article class="letter-card">
+          <div class="letter-paper">
+            <p class="letter-greeting">Minha Thy,</p>
+            <h2>Três meses ao seu lado</h2>
+
+            <p>
+              Hoje eu queria te lembrar de como você faz meu mundo ficar mais bonito,
+              mais tranquilo e mais cheio de sentido. Em apenas três meses, você já se
+              tornou uma presença tão importante na minha vida que eu nem consigo imaginar
+              como seria tudo sem você.
+            </p>
+
+            <p>
+              Cada momento ao seu lado tem sido especial: as conversas, os risos, as
+              pequenas coisas que parecem simples, mas que ficam guardadas no coração. Você
+              me inspira, me acalma, me faz sorrir sem nem perceber e me faz querer estar
+              sempre perto de você.
+            </p>
+
+            <p>
+              Você é delicada, inteligente, carinhosa e tão cheia de luz que me toca de um
+              jeito que poucas pessoas conseguem. A sua presença mudou meu dia, e talvez até
+              o meu jeito de ver as coisas. Você me ensina muito só por estar no meu mundo,
+              e eu sou grato por ter a chance de conhecer você mais fundo, cada dia.
+            </p>
+
+            <p>
+              Tenho muita vontade de continuar vivendo essa história com você, conhecendo mais
+              de você, construindo memórias, aprendendo juntos e celebrando tudo o que ainda
+              vem pela frente. Porque, mesmo com poucos meses, já sinto que você é alguém que
+              vale muito a pena cuidar, ouvir, amar e querer perto.
+            </p>
+
+            <p class="letter-signature">Eu te amo, minha Vida! ❤️</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="gallery-section">
+        <div class="section-tag">Nossos momentos</div>
+        <h2>Nosso começo tem um lugar especial aqui</h2>
+
+        <div class="gallery-grid">
+          <article class="photo-card card-one">
+            <div class="photo-label">Nossa história</div>
+          </article>
+          <article class="photo-card card-two">
+            <div class="photo-label">Meu momento favorito</div>
+          </article>
+          <article class="photo-card card-three">
+            <div class="photo-label">Nós dois</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="surprise-section">
+        <div class="section-tag">Surpresas</div>
+        <h2>Coisinhas lindas que eu queria te mostrar</h2>
+
+        <div class="surprise-actions">
+          <button class="message-trigger" type="button" data-message="Você é a pessoa que deixa meu coração mais calmo e mais feliz ao mesmo tempo.">
+            Meu amor em uma frase
+          </button>
+          <button class="message-trigger" type="button" data-message="Eu gosto muito de você. E gosto ainda mais de como você torna tudo mais bonito, mesmo sem tentar.">
+            Um detalhe meu
+          </button>
+          <button class="message-trigger" type="button" data-message="Quero continuar escrevendo nossa história, com calma, carinho e muito amor, ao seu lado.">
+            O que eu quero
+          </button>
+        </div>
+
+        <div class="message-box" id="messageBox" aria-live="polite">
+          Clique em uma caixinha e eu te conto uma coisa especial.
+        </div>
+      </section>
+
+      <section class="final-banner">
+        <p>Que esses sejam apenas os primeiros capítulos da nossa história. ❤️</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
